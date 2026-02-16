@@ -1,0 +1,18 @@
+# Airflow logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual env
+venv/
+.env
+
+# Airflow database (local)
+airflow.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
