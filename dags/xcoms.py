@@ -5,7 +5,7 @@ from datetime import datetime
 @dag(
     dag_id="xcom_demo",
     start_date=datetime(2024, 1, 1),
-    schedule="@daily",   # ✅ must be string
+    schedule="@daily",   
     catchup=False,
     tags=["xcom"],
 )
