@@ -25,7 +25,7 @@ def read_csv():
 with DAG(
     dag_id="simple_csv_demo",
     start_date=datetime(2024, 1, 1),
-    schedule=None,  # manual trigger
+    schedule=None,  
     catchup=False,
     tags=['simple_csv_demo'],
 ) as dag:
